@@ -8,6 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+@org.springframework.stereotype.Repository
 public class UserRepository extends Repository implements UserRepositoryInterface {
     public UserRepository(Connection connection) {
         super(connection);

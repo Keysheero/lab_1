@@ -2,7 +2,10 @@ package org.example.services.items;
 
 import org.example.services.interfaces.ItemServiceInterface;
 import org.example.storage.repository.interfaces.ItemRepositoryInterface;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ItemService implements ItemServiceInterface {
     private final ItemRepositoryInterface itemRepository;
 

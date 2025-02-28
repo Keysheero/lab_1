@@ -6,7 +6,7 @@ import org.example.storage.repository.interfaces.ItemRepositoryInterface;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
+@org.springframework.stereotype.Repository
 public class ItemRepository extends Repository implements ItemRepositoryInterface {
 
     public ItemRepository(Connection connection) {

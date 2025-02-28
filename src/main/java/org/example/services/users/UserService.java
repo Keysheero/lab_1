@@ -42,7 +42,7 @@ public class UserService implements UserServiceInterface {
 
     public void addUser(String username, String role, String email) {
         ur.saveUser(username, role, email);
-        sender.sendEmail(email, "LAB_DEFENCE ALERT", "KIRILL BELYAKOV ShP 2223 (Thursday 11:00) LAB2");
+        sender.sendEmail(email, "LAB_DEFENCE ALERT", "Ur such a cutie");
     }
 }
 
